@@ -1,0 +1,66 @@
+import img from './illustration-thank-you.svg';
+import './react.css'
+
+function App() {
+  return (
+    <card>
+    <div className="thankyou-container">
+    <div className="thankyou-container-dec">
+    <img src={img} alt=""/>
+    </div>
+    <div className='selected'>
+      <span> You selected 5 out of 5</span>
+
+    </div>
+    <h2 className='title'>Thank you!</h2>
+    <p className='text'>we appreciate you taking the time to give a rating. support , don't initiate in get touch</p>
+   
+  </div>
+  </card>
+  );
+}
+
+export default App;
+
+//*****************************************************///////////*/****//////////////////////
+
+
+
+.selected{
+
+    width: 60%;
+    height: 2rem;
+    border-radius: 25px;
+    background-color: hsl(25, 97%, 53%);;
+    margin: 1.5rem auto;
+    text-align: center;
+    color: white;
+    padding-top: 0.5rem;
+}
+
+
+
+.thankyou-container{
+    background-color: hsl(213, 19%, 18%);
+    width: 100%;
+    padding: 1.5em;
+    border-radius: 20px;
+}
+.thankyou-container-dec{
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+    display: flex;
+    
+}
+.title {
+    color: white;
+    margin: 2rem 0 1rem 0;
+    text-align: center;
+}
+.text{
+color:white;
+font-size: 0.9rem;
+line-height: 1.4rem;
+text-align: center;
+}

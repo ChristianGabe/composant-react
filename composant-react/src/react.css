@@ -1,0 +1,152 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    background-color: hsl(216, 12%, 8%);
+    font-family: 'Overpass', sans-serif;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+p {
+    color: hsl(217, 12%, 63%);
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+.number {
+    color: white;
+    font-size: 0.9rem;
+}
+
+button {
+    font-size: 1rem;
+    color: white;
+    letter-spacing: 0.1em;
+    font-size: 0.9rem;
+}
+
+.container {
+    background-color: hsl(213, 19%, 18%);
+    width: 25rem;
+    padding: 1.5em;
+    border-radius: 20px;
+}
+
+.icon {
+    background-color:hsl(216, 12%, 8%);
+    width: 2.5em;
+    height: 2.5em;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+    position: relative;
+}
+
+.icon img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1, p {
+    margin-bottom: 1rem;
+}
+
+.container-number {
+    display: flex;
+    justify-content: space-between;
+}
+
+.number {
+    background-color:hsl(216, 12%, 8%);
+    width: 3.5em;
+    height: 3.5em;
+    margin-bottom: 1rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.active {
+    background-color: hsl(216, 12%, 54%);
+}
+.number:hover {
+    background-color: hsl(25, 97%, 53%);
+}
+
+#submit {
+    width: 100%;
+    padding: 0.7rem 1rem;
+    background-color: hsl(25, 97%, 53%);
+    border: 0;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+#submit:hover {
+    color: hsl(25, 97%, 53%);
+    background-color: white;
+}
+
+.image-align {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.selected{
+
+    width: 60%;
+    height: 2rem;
+    border-radius: 25px;
+    background-color: hsl(25, 97%, 53%);;
+    margin: 1.5rem auto;
+    text-align: center;
+    color: white;
+    padding-top: 0.5rem;
+}
+
+
+
+.thankyou-container{
+    background-color: hsl(213, 19%, 18%);
+    width: 100%;
+    padding: 1.5em;
+    border-radius: 20px;
+}
+.thankyou-container-dec{
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+    display: flex;
+    
+}
+.title {
+    color: white;
+    margin: 2rem 0 1rem 0;
+    text-align: center;
+}
+.text{
+color:white;
+font-size: 0.9rem;
+line-height: 1.4rem;
+text-align: center;
+}
